@@ -66,7 +66,6 @@ Falls back to `SnapIt_timestamp.png` when no window is detected.
 - **Manual save** via ⌘S with format picker (PNG, JPEG, TIFF)
 - **Auto-format detection** — PNG for UI/text screenshots, JPEG for photos
 - **Pin** — Float the screenshot as an always-on-top window
-- **S3 upload** — Infrastructure ready (AWS Signature V4)
 
 ## Architecture
 
@@ -154,7 +153,6 @@ Grant in: **System Settings → Privacy & Security**
 | **Hotkeys** | Customizable shortcuts for all 6 capture modes |
 | **Appearance** | Window shadow mode, fit-to-window zoom, annotation color |
 | **Advanced** | OCR languages, color format, physical pixels, strip line breaks |
-| **Upload** | S3 endpoint, bucket, access key, secret key, region |
 
 ## Frameworks
 
