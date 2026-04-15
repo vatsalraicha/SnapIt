@@ -169,8 +169,8 @@ All Apple-native, zero third-party dependencies:
 
 ## Requirements
 
-- macOS 13.0 (Ventura) or later
-- Apple Silicon or Intel
+- macOS 26 (Tahoe) or later
+- Apple Silicon
 - Xcode (for building from source)
 
 ## Install
