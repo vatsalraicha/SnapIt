@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <g fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center circle (lens) -->
+    <circle cx="256" cy="256" r="72" />
+
+    <!-- Bottom-right arrow: left side down, across bottom, up right side, then out right with arrowhead -->
+    <path d="M 100 280
+             L 100 320
+             A 92 92 0 0 0 192 412
+             L 320 412
+             A 92 92 0 0 0 412 320
+             L 452 280" />
+    <!-- Arrowhead bottom-right: pointing right -->
+    <path d="M 388 280
+             L 452 280
+             L 452 344" />
+
+    <!-- Top-left arrow: right side up, across top, down left side, then out left with arrowhead -->
+    <path d="M 412 232
+             L 412 192
+             A 92 92 0 0 0 320 100
+             L 192 100
+             A 92 92 0 0 0 100 192
+             L 60 232" />
+    <!-- Arrowhead top-left: pointing left -->
+    <path d="M 124 232
+             L 60 232
+             L 60 168" />
+  </g>
+</svg>

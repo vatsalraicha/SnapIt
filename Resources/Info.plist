@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>SnapIt</string>
+    <key>CFBundleDisplayName</key>
+    <string>SnapIt</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.snapit.app</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>SnapIt</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>SnapIt needs screen recording permission to capture screenshots.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>SnapIt needs accessibility access for global hotkeys.</string>
+</dict>
+</plist>
