@@ -69,32 +69,28 @@ Falls back to `SnapIt_timestamp.png` when no window is detected.
 
 ## Architecture
 
-```
-Menu Bar (StatusBarController)
-    │
-    ├── Global Hotkeys (Carbon Event API)
-    │
-    └── CaptureManager (singleton)
-            │
-            ├── AreaCaptureOverlay ──────┐
-            ├── WindowCaptureOverlay ────┤
-            ├── ScrollCaptureEngine ─────┤
-            │   (Vision framework        │
-            │    for stitching)          │
-            └── Fullscreen/OCR ─────────┤
-                                        ▼
-                                  openEditor()
-                                   │       │
-                             auto-save  auto-copy
-                                   │
-                               showEditor()
-                                   │
-                             EditorWindow
-                                   │
-                          EditorViewController
-                                   │
-                              CanvasView
-                           (image + annotations)
+```mermaid
+flowchart TD
+    A[Menu Bar\nStatusBarController] --> B[Global Hotkeys\nCarbon Event API]
+    A --> C[CaptureManager]
+
+    C --> D[AreaCaptureOverlay]
+    C --> E[WindowCaptureOverlay]
+    C --> F[ScrollCaptureEngine\nVision framework stitching]
+    C --> G[Fullscreen / OCR]
+
+    D --> H[openEditor]
+    E --> H
+    F --> H
+    G --> H
+
+    H --> I[Auto-save]
+    H --> J[Auto-copy]
+    H --> K[showEditor]
+
+    K --> L[EditorWindow]
+    L --> M[EditorViewController]
+    M --> N[CanvasView\nImage + Annotations]
 ```
 
 ### Key Components
