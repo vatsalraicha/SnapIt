@@ -4,7 +4,7 @@ A native macOS screenshot tool built in Swift. Captures, annotates, and exports 
 
 ## Why
 
-macOS built-in screenshot is limited: no annotation, no scrolling capture, no OCR. Third-party tools like Shottr exist but aren't open-source. SnapIt fills the gap — a fast, lightweight, zero-dependency screenshot app optimized for Apple Silicon.
+macOS built-in screenshot is limited: no annotation, no scrolling capture, no OCR. SnapIt fills the gap — a fast, lightweight, zero-dependency screenshot app optimized for Apple Silicon.
 
 ## What It Does
 
